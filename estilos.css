@@ -18,19 +18,27 @@ header img{
     width: 150px;
     margin: 20px;
 }
+.cabecera{
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 header h1 {
     font-size:36px;
+    margin: 20px;
+    text-align: center;
 }
 
 header p {
     margin: 5px 0;
     font-size: 18px;
+    text-align: center;
 
 }
 
 nav {
-    background-color: rgb(239, 239, 143);
+    background-color: rgb(240, 128, 9);
     color: rgb(32, 2, 2);
     padding: 10px;
     text-align: center;
@@ -92,4 +100,5 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
